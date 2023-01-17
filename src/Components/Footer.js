@@ -40,6 +40,14 @@ function Footer() {
                 <Link className='links' to='/zivotinje'>Gmazovi</Link>
                 <Link className='links' to='/zivotinje'>Ribe</Link>
             </div>
+	    <div>
+                <h4>Proizvodi</h4>
+                <Link className='links' to='https://www.kras.hr/hr/proizvodi/cokolade/zivotinjsko-carstvo/zivotinjsko-carstvo-galeb>Čokolada 15g</Link>
+                <Link className='links' to='https://www.kras.hr/hr/proizvodi/cokolade/zivotinjsko-carstvo/milksy-keks'>Milksy keks 20g</Link>
+                <Link className='links' to='https://www.kras.hr/hr/proizvodi/cokolade/zivotinjsko-carstvo/lizli-zirafa'>Lizli 15g</Link>
+                <Link className='links' to='https://www.kras.hr/hr/proizvodi/cokolade/zivotinjsko-carstvo/milksy-kras-express'>Milksy Kraš Express</Link>
+		<Link className='links' to='https://www.kras.hr/hr/proizvodi/cokolade/zivotinjsko-carstvo/album-zivotinjsko-carstvo'>Album</Link>
+            </div>
             
             <div>
                 <h4>Kontakt</h4>

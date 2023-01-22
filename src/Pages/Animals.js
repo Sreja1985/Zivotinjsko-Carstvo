@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Hero from '../Components/Hero';
+import AnimalImg from '../Assets/Animals.jpg';
 
 function Animals() {
   return (
-    <div>Animals</div>
+    <>
+      <Hero
+          cName='hero__mid'
+          heroImg= {AnimalImg} 
+          alt= 'Životinjsko carstvo'
+        />
+    
+    </>
   )
 }
 

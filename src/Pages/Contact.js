@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from '../Components/Hero';
-import ContactImg from '../Assets/ZCContact.jpg';
+import ContactImg from '../Assets/AllCaracters.jpg';
 import ContactForm from '../Components/ContactForm';
 
 

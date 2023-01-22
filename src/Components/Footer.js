@@ -34,14 +34,6 @@ function Footer() {
                 <Link className='links' to='/'>Osnovni podaci</Link>
             </div>
             <div>
-                <h4>Proizvodi</h4>
-                <Link className='links' to='/'>Čokolada 15g</Link>
-                <Link className='links' to='/'>Milksy keks 20g</Link>
-                <Link className='links' to='/'>Lizli 15g</Link>
-                <Link className='links' to='/'>Milksy Kraš Express</Link>
-		        <Link className='links' to='/'>Album</Link>
-            </div>
-            <div>
                 <h4>Životinje</h4>
                 <Link className='links' to='/zivotinje'>Sisavci</Link>
                 <Link className='links' to='/zivotinje'>Ptice</Link>

@@ -40,7 +40,12 @@ function Footer() {
                 <Link className='links' to='/zivotinje'>Gmazovi</Link>
                 <Link className='links' to='/zivotinje'>Ribe</Link>
             </div>
-            
+            <div>
+                <h4>Kolekcije</h4>
+                <Link className='links' to='/kolekcije'>Životinjsko carstvo</Link>
+                <Link className='links' to='/kolekcije'>Cro Army</Link>
+                <Link className='links' to='/kolekcije'>Leteči medvjedići</Link>
+            </div>            
             <div>
                 <h4>Kontakt</h4>
                 <address>

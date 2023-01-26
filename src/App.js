@@ -9,6 +9,7 @@ import History from './Pages/History';
 import Contact from './Pages/Contact';
 import Login from './Pages/Login';
 import Footer from './Components/Footer';
+import ErrorPage from './Pages/ErrorPage';
 
 
 const Wrapper = ({children}) =>{
@@ -32,6 +33,7 @@ function App() {
             <Route path='/povijest'  element={ <History/> } />
             <Route path='/kontakt'  element={ <Contact/> } />
             <Route path='/prijava'  element={ <Login/> } />
+            <Route path='*' element={ <ErrorPage/>} />
         </Routes> 
         <Footer />
       </Wrapper>     

@@ -1,6 +1,8 @@
 import React from 'react';
 import Hero from '../Components/Hero';
 import HomeImg from '../Assets/ZC.jpg';
+import Content from '../Components/Content';
+import MascotsList from '../Components/MascotsList';
 
 function Home() {
   return (
@@ -10,6 +12,13 @@ function Home() {
         heroImg= {HomeImg}
         alt= 'Životinjsko carstvo'
       />
+
+      <Content
+        title= 'Dobro došli !'
+        subtitle = 'Upoznajte naše maskote'
+       />
+
+      <MascotsList />
 
     </>
   )

@@ -84,7 +84,7 @@
 
 @media screen and (max-width: 650px) {
     .mascots{
-        margin: 12rem -3rem;
+        margin: 12rem 2rem;
         justify-content: center;
     }
 
@@ -100,7 +100,7 @@
     .description{
         width: 80%; 
         text-align: center;  
-        font-size: .8rem; 
+        font-size: 1rem; 
     }
 
     .description h2{

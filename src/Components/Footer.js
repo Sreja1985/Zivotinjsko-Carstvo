@@ -35,10 +35,15 @@ function Footer() {
             </div>
             <div>
                 <h4>Životinje</h4>
-                <Link className='links' to='/zivotinje'>Sisavci</Link>
-                <Link className='links' to='/zivotinje'>Ptice</Link>
-                <Link className='links' to='/zivotinje'>Gmazovi</Link>
-                <Link className='links' to='/zivotinje'>Ribe</Link>
+                <Link className='links' to='/zivotinje/beskraljeznaci'>Beskralježnjaci</Link>
+                <Link className='links' to='/zivotinje/mekusci'>Mekušci</Link>
+                <Link className='links' to='/zivotinje/clankonosci'>Člankonošci</Link>
+                <Link className='links' to='/zivotinje/bodljikasi'>Bodljikaši</Link>
+                <Link className='links' to='/zivotinje/ribe'>Ribe</Link>
+                <Link className='links' to='/zivotinje/vodozemci'>Vodozemci</Link>
+                <Link className='links' to='/zivotinje/gmazovi'>Gmazovi</Link>
+                <Link className='links' to='/zivotinje/ptice'>Ptice</Link>
+                <Link className='links' to='/zivotinje/sisavci'>Sisavci</Link>
             </div>
             <div>
                 <h4>Kolekcije</h4>

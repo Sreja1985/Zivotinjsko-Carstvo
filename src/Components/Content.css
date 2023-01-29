@@ -40,3 +40,21 @@
     }
     
 }
+
+@media screen and (max-width: 650px) {
+    .content h1{
+        font-size: 1.8rem;
+        padding-bottom: .5rem;
+    }
+
+    .content h3{
+        font-size: 1rem;
+        padding-bottom: .5rem;
+    }
+
+    .content p{
+        font-size: 0.8rem;
+        padding-bottom: .5rem;
+    }
+
+}

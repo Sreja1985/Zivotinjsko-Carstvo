@@ -16,7 +16,7 @@ function AlbumList() {
         <Mascots 
             cName= 'des'
             heading= '1956'
-            text= 'započinje suradnja s nakladničkom kućom Stožer i izlazi prvi album Životinjskog carstav s prekrasnim ilustracijama životinja.'
+            text= 'Započinje suradnja s nakladničkom kućom Stožer i izlazi prvi album Životinjskog carstav s prekrasnim ilustracijama životinja.'
             alt='1956'
             image={Album1956}        
         />

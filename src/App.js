@@ -4,7 +4,6 @@ import { useLayoutEffect } from 'react';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import Animals from './Pages/Animals';
-import Prodacts from './Pages/Prodacts';
 import History from './Pages/History';
 import Contact from './Pages/Contact';
 import Login from './Pages/Login';
@@ -29,7 +28,6 @@ function App() {
         <Routes>
             <Route path='/' exact element={ <Home/> } />
             <Route path='/zivotinje'  element={ <Animals/> } />
-            <Route path='/proizvodi' element={ <Prodacts/> } />
             <Route path='/povijest'  element={ <History/> } />
             <Route path='/kontakt'  element={ <Contact/> } />
             <Route path='/prijava'  element={ <Login/> } />

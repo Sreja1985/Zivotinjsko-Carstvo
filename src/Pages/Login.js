@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Hero from '../Components/Hero';
+import LogInImg from '../Assets/ZCContact.jpg';
 
 function Login() {
   return (
-    <div>Login</div>
+        <Hero
+          cName='hero__mid'
+          heroImg= {LogInImg} 
+          alt= 'Životinjsko carstvo'
+        />
   )
 }
 

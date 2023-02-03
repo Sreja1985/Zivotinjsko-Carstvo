@@ -50,6 +50,7 @@ function Footer() {
                 <Link className='links' to='/kolekcije'>Životinjsko carstvo</Link>
                 <Link className='links' to='/kolekcije'>Cro Army</Link>
                 <Link className='links' to='/kolekcije'>Leteči medvjedići</Link>
+                <Link className='links' to='/kolekcije'>Viteške priče</Link>
             </div>            
             <div>
                 <h4>Kontakt</h4>

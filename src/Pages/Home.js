@@ -14,6 +14,7 @@ function Home() {
       />
 
       <Content
+        cName= 'content'
         title= 'Dobro došli !'
         subtitle = 'Upoznajte naše maskote'
        />

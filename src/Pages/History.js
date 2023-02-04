@@ -14,6 +14,7 @@ function History() {
       />
 
       <Content 
+        cName= 'content'
         title='Album'
         subtitle='Životinjsko carstvo kroz povijest'
       />

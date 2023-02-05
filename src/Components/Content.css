@@ -39,20 +39,20 @@
     }
 
     .content h1
-    .mid-conten h1{
+    .mid_conten h1{
         font-size: 2rem;
         padding-bottom: .5rem;
     }
 
     .content h3
-    .mid-conten h3{
+    .mid_conten h3{
         font-size: 1.3rem;
         padding-bottom: .5rem;
     }
 
     .content p,
-    .mid-content p{
-        font-size: 1rem;
+    .mid_content p{
+        font-size: 1.1rem; 
         padding-bottom: .5rem;
     }
     
@@ -60,20 +60,20 @@
 
 @media screen and (max-width: 650px) {
     .content h1,
-    .mid-content h1{
+    .mid_content h1{
         font-size: 1.8rem;
         padding-bottom: .5rem;
     }
 
     .content h3,
-    .mid-content h3{
+    .mid_content h3{
         font-size: 1rem;
         padding-bottom: .5rem;
     }
 
     .content p,
-    .mid-content p{
-        font-size: 0.8rem;
+    .mid_content p{
+        font-size: 1rem; 
         padding-bottom: .5rem;
     }
 

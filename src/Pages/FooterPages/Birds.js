@@ -1,16 +1,44 @@
 import React from 'react';
 import Content from '../../Components/Content';
-import Hero from '../../Components/Hero';
-import HistoryImg from '../../Assets/History.jpg';
+import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.min.css";
+import '../../Components/Swiper.css';
+import { BirdsGallery } from '../../Components/AnimalGallery/BirdsGallery';
+
+
+SwiperCore.use([EffectCoverflow, Pagination]);
 
 function Birds() {
   return (
     <>
-        <Hero
-          cName='hero__mid'
-          heroImg= {HistoryImg} 
-          alt= 'Životinjsko carstvo'
-      />
+      <Swiper
+            effect={"coverflow"}
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView={"auto"}
+            coverflowEffect={{
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: false,
+              
+            }}
+            pagination={true}
+            className="mySwiper"        
+            >   
+            
+            { BirdsGallery.map((item, index) => {
+              return (
+                <SwiperSlide key={index}>
+                  <img src={item.url} alt=''/>
+                </SwiperSlide>
+              );
+            })}       
+        </Swiper>
+        
         <Content
         cName= 'mid_content'
         title= 'Ptice'

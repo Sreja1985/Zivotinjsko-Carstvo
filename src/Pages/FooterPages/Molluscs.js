@@ -1,16 +1,42 @@
 import React from 'react';
 import Content from '../../Components/Content';
-import Hero from '../../Components/Hero';
-import HistoryImg from '../../Assets/History.jpg';
+import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.min.css";
+import '../../Components/Swiper.css';
+import { MolluscsGallery } from '../../Components/AnimalGallery/MolluscsGallery';
+
+SwiperCore.use([EffectCoverflow, Pagination]);
 
 function Molluscs() {
   return (
     <>
-        <Hero
-          cName='hero__mid'
-          heroImg= {HistoryImg} 
-          alt= 'Životinjsko carstvo'
-        />
+        <Swiper
+            effect={"coverflow"}
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView={"auto"}
+            coverflowEffect={{
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: false,
+              
+            }}
+            pagination={true}
+            className="mySwiper"        
+            >   
+            
+            { MolluscsGallery.map((item, index) => {
+              return (
+                <SwiperSlide key={index}>
+                  <img src={item.url} alt=''/>
+                </SwiperSlide>
+              );
+            })}       
+        </Swiper>
         <Content
         cName= 'mid_content'
         title= 'Mekušci'

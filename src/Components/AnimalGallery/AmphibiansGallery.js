@@ -17,7 +17,5 @@ export const AmphibiansGallery = [
     {
         url: 'https://cdn.mos.cms.futurecdn.net/39CUYMP8vJqHAYGVzUghBX-1200-80.jpg'        
     },
-    {
-        url: 'http://amphibian-reptile-conservation.org/images/Ichthyophis%20benjii%20sp.%20nov.%20.jpg'        
-    },
+    
 ]

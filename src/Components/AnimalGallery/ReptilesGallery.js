@@ -1,0 +1,23 @@
+export const ReptilesGallery = [
+    {
+        url:'https://site-547756.mozfiles.com/files/547756/catitems/Alligator3-81466fa981451fb0f9e8a2f0f31fa974.jpg?1833593'
+    },
+    {
+        url:'https://site-547756.mozfiles.com/files/547756/catitems/Anaconda_Python_Snake_Reptile-10836488b62d5a3457018ec86b4acff0.jpg?1833316'
+    },
+    {
+        url:'https://site-547756.mozfiles.com/files/547756/catitems/Komodo-bc0674c23d5933d3995db27c8a8a9675.jpg?1833008'
+    },
+    {
+        url:'https://site-547756.mozfiles.com/files/547756/catitems/Thorny_Devil-9e21e0fd49b3f0f6196c4580a0d35d68.jpg?1834612'
+    },
+    {
+        url:'https://site-547756.mozfiles.com/files/547756/catitems/Iguana-8e85790f9d0682ddf0bcc7abf86c2383.jpg?1834625'
+    },
+    {
+        url:'https://site-547756.mozfiles.com/files/547756/catitems/turtle-animals-water-creature-loggerhead-sea-turtle-65885-544a0f980d1c2f03a52bf37a6cabda78.jpeg?1834623'
+    },
+    {
+        url:'https://site-547756.mozfiles.com/files/547756/catitems/Loggerhead_Sea_Turtle-d1d20e539024a00f6d888ce589c4bd0d.jpg?1834913'
+    },
+]

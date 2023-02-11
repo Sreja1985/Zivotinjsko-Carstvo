@@ -1,13 +1,26 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import Content from '../Components/Content';
+import Hero from '../Components/Hero';
+import HomeImg from '../Assets/ZC.jpg';
+import LinkComponent from '../Components/LinkComponent';
+
 
 function ErrorPage() {
   return (
     <section>
-        <h1>Stranica nije pronađena</h1>
-        <p>
-            <Link to='/'>Povratak</Link>
-        </p>
+        <Hero 
+        cName='hero'
+        heroImg= {HomeImg}
+        alt= 'Životinjsko carstvo'
+        />
+        <Content 
+          cName= 'content'
+          title= 'Sadržaj nije pronađen'          
+        />
+        <LinkComponent 
+          url= '/'
+          text='Povratak'
+        />
     </section>
   )
 }

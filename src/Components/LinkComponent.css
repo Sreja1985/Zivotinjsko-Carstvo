@@ -1,0 +1,28 @@
+.notFound{
+    margin: 10rem 6rem  6rem 6rem;
+    text-align: center;
+    opacity: 0.8;
+}
+
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;     
+}
+
+@media screen and (max-width: 850px ) {
+    .notFound{
+        margin: 16rem 2rem  2rem 2rem;        
+    }
+    a {
+        font-size: 1.5rem;  
+    }
+}
+
+
+@media screen and (max-width: 650px ) {
+        a {
+        font-size: 1rem;  
+    }
+}

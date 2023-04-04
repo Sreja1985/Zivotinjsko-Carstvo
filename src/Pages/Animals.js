@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../Components/Hero';
 import AnimalImg from '../Assets/Animals.jpg';
+import AnimalList from '../Components/AnimalList';
 
 function Animals() {
   return (
@@ -10,6 +11,7 @@ function Animals() {
           heroImg= {AnimalImg} 
           alt= 'Životinjsko carstvo'
         />
+      <AnimalList />     
     
     </>
   )

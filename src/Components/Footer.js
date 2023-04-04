@@ -3,6 +3,9 @@ import {Link} from 'react-router-dom';
 import './Footer.css';
 
 function Footer() {
+
+    const year = new Date().getFullYear();
+
   return (
     <footer className='footer'>
         <section className='top'>
@@ -66,7 +69,7 @@ function Footer() {
 
         <section className='bottom'>
             <span>Copyright &copy; </span>
-            <span>Kraš</span>
+            <span>ŽC {year}</span>
         </section>
     </footer>
   )

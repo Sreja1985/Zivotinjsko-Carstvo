@@ -8,6 +8,7 @@ import Animals from './Pages/Animals';
 import History from './Pages/History';
 import Contact from './Pages/Contact';
 import Login from './Pages/Login';
+import AnimalPage from './Pages/AnimalPage';
 import Mammals from './Pages/FooterPages/Mammals';
 import Birds from './Pages/FooterPages/Birds';
 import Reptiles from './Pages/FooterPages/Reptiles';
@@ -38,6 +39,7 @@ function App() {
         <Routes>
             <Route path='/' exact element={ <Home/> } />
             <Route path='/zivotinje'  element={ <Animals/> } />
+            <Route path='/zivotinje/ziv'  element={ <AnimalPage/> } />
             <Route path='/povijest'  element={ <History/> } />
             <Route path='/kontakt'  element={ <Contact/> } />
             <Route path='/prijava'  element={ <Login/> } />

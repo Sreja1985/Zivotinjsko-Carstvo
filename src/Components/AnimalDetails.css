@@ -1,0 +1,24 @@
+.wrapper{
+    margin: 8rem 6rem;
+    display: grid;
+    width: 90%;
+    height: 80vh;
+    grid-template-columns: 5fr 7fr;
+       
+   
+    grid-gap: 1.5rem;    
+}
+
+
+.animal__img{
+    background-color: green;
+}
+
+.animal__data{
+    background-color: red;
+}
+
+.animal__text{
+    background-color: blue;
+    
+}
